@@ -40,7 +40,7 @@ Access via localhost:8501
 ```
 git clone https://github.com/gremloon/app.git  
 cd app  
-docker build -t gremloon/app --no-cache .
+docker build -t gremloon/app .
 docker run -i -p '8501:8501' gremloon/app:latest 
 Access via localhost:8501  
 ```
